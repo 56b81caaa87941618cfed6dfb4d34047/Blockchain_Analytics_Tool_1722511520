@@ -4,7 +4,7 @@
 Vue.component("particle_component_1722511523", {
     template: `
     <div id="illustration"
-        class="absolute inset-0 -z-10 -mx-28 rounded-b-[5rem] pointer-events-none overflow-hidden"
+        class="absolute inset-0 -z-10 -mx-28 rounded-b-[5rem] pointer-events-none overflow-hidden backdrop-filter backdrop-blur-lg bg-opacity-30 bg-gradient-to-br from-pink-300 to-purple-500"
         style="z-index:0" aria-hidden="true">
         <div id="illustration-inner" class="absolute left-1/2 -translate-x-1/2 bottom-0 -z-10">
             <svg id="illustration-svg" xmlns="http://www.w3.org/2000/svg" class="max-w-none"
@@ -54,11 +54,11 @@ Vue.component("particle_component_1722511523", {
             return {
                 expanded: false, 
                 tab: null,
-                gradientOnePrimaryStopColor:"#A855F7",
-                gradientSecondaryStopColor: "#6366F1",
-                radialGradientPrimaryColor: "#E9D5FF",
-                radialGradientSecondaryColor: "#A855F7",
-                radialGradientTertiaryColor: "#0F172A"
+                gradientOnePrimaryStopColor:"#FF1493",
+                gradientSecondaryStopColor: "#8A2BE2",
+                radialGradientPrimaryColor: "#FF69B4",
+                radialGradientSecondaryColor: "#DA70D6",
+                radialGradientTertiaryColor: "#4B0082"
             };  
         },
     });
